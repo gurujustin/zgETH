@@ -1,0 +1,63 @@
+
+
+# rpc urls
+MAINNET_RPC_URL=https://ethereum.blockpi.network/v1/rpc/public
+ARBITRUM_RPC_URL=https://arbitrum.blockpi.network/v1/rpc/public
+OPTIMISM_RPC_URL=https://optimism.blockpi.network/v1/rpc/public
+BASE_RPC_URL=https://base-rpc.publicnode.com
+FRAX_RPC_URL=https://rpc.frax.com
+# Fork tests can run against a mainnet node or a local fork (anvil)
+FORK_RPC_URL=$MAINNET_RPC_URL
+# FORK_RPC_URL=http://localhost:8545
+SEPOLIA_RPC_URL=https://ethereum-sepolia-rpc.publicnode.com
+ARBITRUM_SEPOLIA_RPC_URL=https://sepolia-rollup.arbitrum.io/rpc
+ARBITRUM_VERIFIER_URL=https://api.arbiscan.io/api
+OPTIMISM_SEPOLIA_RPC_URL=https://public.stackup.sh/api/v1/node/optimism-sepolia
+OPTIMISM_VERIFIER_URL=https://api-optimistic.etherscan.io/api
+OPTIMISM_SEPOLIA_VERIFIER_URL=https://api-sepolia-optimistic.etherscan.io/api
+BASE_VERIFIER_URL=https://api.basescan.org/api
+
+
+MUMBAI_RPC_URL=https://rpc-mumbai.maticvigil.com
+
+# Fix the block to fork from when running hardhat forks
+BLOCK_NUMBER=
+
+# chain explorer api key for contract verification
+ETHERSCAN_API_KEY=2E446YFS6EPUCJQ84W6GHX626759K121NP
+ARBISCAN_API_KEY=HMDFAK12SZNTB328C7MPBG7YHGQDHSE63S
+OP_ETHERSCAN_API_KEY=FY1CHEW9XWVD7K2MM1KTNUWZW6ZTDJASZF
+BASE_ETHERSCAN_API_KEY=H5AX1XZR3JSSIJZ3Z2ZMYE48KJFTT3AN8N
+FRAXSCAN_API_KEY=VDTNSY8T5A1XQ1MSA9C5R76ETF4ZZZXDBY
+
+
+# Open Zeppelin Defender Team API key
+DEFENDER_TEAM_KEY=
+DEFENDER_TEAM_SECRET=
+
+# Open Zeppelin Defender Relayer account API key
+DEFENDER_RELAYER_KEY=
+DEFENDER_RELAYER_SECRET=
+SPEED=fastest
+
+# Used by the depositAllEL Hardhat task
+MAX_DEPOSIT_AMOUNT=0
+
+# Used to impersonate accounts when running Hardhat tasks
+IMPERSONATE=
+# IMPERSONATE=0x5De069482Ac1DB318082477B7B87D59dfB313f91    # Relayer account
+# IMPERSONATE=0xEc574b7faCEE6932014EbfB1508538f6015DCBb0    # MultiSig
+# IMPERSONATE=0xF83cacA1bC89e4C7f93bd17c193cD98fEcc6d758    # ProxyAdmin
+# IMPERSONATE=0xc055De577ce2039E6D35621E3a885df9Bb304AB9    # buETH whale
+
+
+# MAINNET_RPC_URL = "https://ethereum.blockpi.network/v1/rpc/public"
+# ETHERSCAN_API_KEY = "E6PDCIA6HKKSI5AA7DGAZ8FHU64SSAS9ZV"
+
+# FRX_RPC_URL = "https://rpc.frax.com"
+# FRAXSCAN_API_KEY = "G3E7CACM4MI9EMITYF6H7HEYB312SV6MSF"
+# FRAXTAL_VERIFIER_URL = "https://api.fraxscan.com/api"
+
+# ARBITRUM_RPC_URL = "https://arbitrum-one.publicnode.com"
+# ARBISCAN_API_KEY = "3R6XDC56C848GZAKX5KZB9S98REBRZUV3B"
+# ARBITRUM_VERIFIER_URL = "https://api.arbiscan.io/api"

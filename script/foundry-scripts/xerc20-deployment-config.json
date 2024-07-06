@@ -1,0 +1,19 @@
+{
+  "name": "Zerog Staked ETH",
+  "symbol": "zgETH",
+  "chainDetails": [
+      {
+          "rpcEnvName": "SEPOLIA_RPC_URL",
+          "erc20": "0x6e65423b37136b89CCD9d5a26176281014347A5B",
+          "governor": "0x8BD0260D4E070EeeD5FC2F6f1C888FbC5fD2Cb34",
+          "isNativeGasToken": false,
+          "bridgeDetails": [
+              {
+                  "bridge": "0xFCa08024A6D4bCc87275b1E4A1E22B71fAD7f649",
+                  "burnLimit": 1000e18,
+                  "mintLimit": 1000e18
+              }
+          ]
+      }
+  ]
+}
